@@ -25,35 +25,8 @@ The architecture is based on **Diehl & Cook (2015)**:
 - **Excitatory layer** learns to represent distinct temporal patterns
 - **Inhibitory layer** introduces lateral competition to promote diverse receptive fields  
 - Learning occurs locally via the **Spike-Time Dependent Plasticity (STDP)** rule
-
-<p align="center">
-  <img src="architecture_diagram.png" alt="Architecture Diagram" width="500">
-</p>
-
 ---
 
-## 📊 Results Summary
-
-- The SNN achieves meaningful temporal forecasting, though MSE remains higher than AR(5)
-- The receptive fields form distinct patterns, revealing biologically interpretable neuron behavior
-- Performance improves up to an optimal ratio between number of neurons and training data
-- The model performs particularly well on **boolean or range-based forecasting** tasks
-
-| Model | MSE (↓) | Correct Label % (↑) |
-|--------|----------|--------------------|
-| AR(5) | 412 | - |
-| SNN (1000 neurons) | 670.8 | 18.1% |
-
----
-
-## 🧠 Example Applications
-
-- **Neuromorphic time-series forecasting**
-- **Stock up/down prediction** (boolean forecasting)
-- **Brain-inspired computational modeling**
-- **Energy-efficient forecasting on neuromorphic chips**
-
----
 
 ## 🧪 Run the Code
 
