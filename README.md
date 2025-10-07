@@ -28,12 +28,6 @@ The architecture is based on **Diehl & Cook (2015)**:
 ---
 
 
-## 🧪 Run the Code
-
-You can open and run the notebook directly in Google Colab:
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yourusername/unsupervised-spiking-forecasting/blob/main/notebooks/main.ipynb)
-
 ### Dependencies
 ```bash
 pip install brian2 numpy pandas matplotlib scikit-learn
